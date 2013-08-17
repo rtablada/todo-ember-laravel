@@ -3,6 +3,10 @@ Todos.Router.map ->
     this.route 'active'
     this.route 'completed'
 
+Todos.TodosRoute = Ember.Route.extend
+  model: ->
+    return Todos.Todo.find();
+
 Todos.TodosIndexRoute = Ember.Route.extend
   model: ->
     Todos.Todo.find()
