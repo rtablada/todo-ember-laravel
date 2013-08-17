@@ -1,0 +1,8 @@
+{
+  "name": "Todo-MVC-Laravel",
+  "version": "0.1.0",
+  "directory": "lib/assets/javascripts",
+  "dependencies": {
+    "ember-data-shim": "0.0.13"
+  }
+}
